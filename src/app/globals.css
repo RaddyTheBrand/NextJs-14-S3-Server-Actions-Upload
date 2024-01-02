@@ -1,0 +1,37 @@
+.form-wrapper {
+  max-width: 600px;
+  margin: 0 auto; 
+
+  & input[type="file"] {
+      margin-bottom: 16px;
+  }
+
+  & input, button {
+      width: 100%;
+      box-sizing: border-box;
+      border-radius: 3px;
+      overflow: hidden;
+  }
+
+  & .state-message {
+      padding: 10px;
+      text-align: center;
+  }
+
+  & .state-message.success {
+      color: green;
+  }
+
+  & .state-message.error {
+      color: red;
+  }
+
+  & .submit-button {
+      display: block;
+      background-color: green;
+      padding: 10px;
+      border: 0;
+      font-size: 18px;
+      color: white;
+  }
+}
