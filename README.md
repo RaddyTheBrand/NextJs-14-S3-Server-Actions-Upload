@@ -39,7 +39,7 @@ You can find example policies here [https://docs.aws.amazon.com/AmazonS3/latest/
             "Effect": "Allow",
             "Principal": "*",
             "Action": "s3:GetObject",
-            "Resource": "arn:aws:s3:::gearxplorer-prod/*"
+            "Resource": "arn:aws:s3:::your-project-name/*"
         }
     ]
 }
